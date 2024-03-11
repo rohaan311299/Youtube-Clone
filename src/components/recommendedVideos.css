@@ -1,0 +1,18 @@
+.recommended-videos {
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.recommended-videos > h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.recommended-videos-videos {
+    display: flex;
+    /* if it does not fit in the line, it will go to the next line */
+    flex-wrap: wrap;
+    
+}

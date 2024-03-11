@@ -1,0 +1,32 @@
+.sidebar {
+    /* saying that inside the container, it should only take up 20% */
+    flex: 0.2;
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sidebar h4 {
+    margin: 10px;
+}
+
+.sidebar-footer {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #606060;
+}
+
+.sidebar-footer p {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}

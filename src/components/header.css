@@ -1,0 +1,57 @@
+.header {
+    /* everything will come in same row */
+    display: flex; 
+
+    /* align everything in same row horizontally */
+    align-items: center;
+
+    /* adds space between all the children */
+    justify-content: space-between;
+
+    padding: 20px;
+
+    /* to make sure the header is always on too */
+    position: sticky;
+    top:0;
+
+    /* z index makes it appear in the front */
+    z-index: 100;
+    
+    /* to make sure nothing goes behind the header */
+    background-color: white;
+}
+
+.header-logo {
+    height: 25px;
+    /* prevents image from getting distorted / stretched */
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header-middle{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+
+.header-middle > input {
+    flex: 1;
+    border: none;
+}
+
+.search-button {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon {
+    margin-right: 20px;
+}
